@@ -1,0 +1,22 @@
+{
+  "name": "tfjs-glm",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-min"
+  },
+  "author": "Dirk Schumacher <mail@dirk-schumacher.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "lodash.round": "^4.0.4",
+    "mtcars": "^0.1.0",
+    "tap-min": "^2.0.0",
+    "tape": "^4.10.2"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-core": "^1.2.1",
+    "tfjs-diag": "github:dirkschumacher/tfjs-diag#v0.0.1",
+    "tfjs-leastsquares": "github:dirkschumacher/tfjs-leastsquares#v0.1.0"
+  }
+}
