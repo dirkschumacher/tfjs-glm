@@ -2,7 +2,7 @@
 
 const test = require("tape")
 const tfc = require("@tensorflow/tfjs-core")
-const {glm, gaussian, binomial} = require(".")
+const {glm, gaussian, binomial, poisson} = require(".")
 const mtcars = require("mtcars")
 const round = require("lodash.round")
 
@@ -67,7 +67,6 @@ test("fit mtcars binomial logit", (t) => {
 
   t.end()
 })
-
 
 //test("fit mtcars poisson log", (t) => {
 //  const hp = mtcars.map((x) => x.hp)
