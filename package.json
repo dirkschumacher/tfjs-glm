@@ -15,7 +15,7 @@
     "tape": "^4.10.2"
   },
   "dependencies": {
-    "@tensorflow/tfjs-core": "^1.2.1",
+    "@tensorflow/tfjs-core": "^4.5.0",
     "tfjs-diag": "github:dirkschumacher/tfjs-diag#v0.0.1",
     "tfjs-leastsquares": "github:dirkschumacher/tfjs-leastsquares#v0.1.0"
   }
